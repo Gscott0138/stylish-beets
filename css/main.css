@@ -1,20 +1,27 @@
 html {
   background-color: #c9b5ab;
+  line-height: 1.5;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
 }
 
 header {
   font-family: "PT Sans", sans-serif;
   font-weight: bolder;
+  font-size: .8rem;
 }
 
 h1 {
   color: #3f1622;
+  font-weight: bolder;
 }
 
 nav ol {
   color: #8f2440;
   list-style: none;
   font-size: 1.25rem;
+  line-height: normal;
+  font-weight: bold;
 }
 
 a:hover {
@@ -29,4 +36,9 @@ a:link {
 
 img {
   width: 100%;
+}
+
+figcaption p {
+  font-style: italic;
+  line-height: normal;
 }
