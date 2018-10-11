@@ -7,31 +7,32 @@ html {
 
 header {
   font-family: "PT Sans", sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: .8rem;
-}
-
-h1 {
   color: #3f1622;
-  font-weight: bolder;
+  text-decoration: none;
 }
 
-nav ol {
+a {
   color: #8f2440;
-  list-style: none;
   font-size: 1.25rem;
   line-height: normal;
   font-weight: bold;
+  text-decoration: none;
+}
+
+nav ol {
+  list-style: none;
 }
 
 a:hover {
   color: #3f1622;
   text-decoration: underline;
+  list-style: none;
 }
 
-a:link {
-  text-decoration: none;
-  color: #8f2440;
+.beets {
+  list-style-type: none;
 }
 
 img {
@@ -40,24 +41,19 @@ img {
 
 figcaption p {
   font-style: italic;
-  line-height: normal;
 }
 
 .p1 {
   font-weight: bold;
 }
 
-blockquote {
+blockquote p {
   font-size: 1.5rem;
   font-style: italic;
 }
 
 blockquote > cite {
   font-size: .8rem;
-}
-
-blockquote > strong {
-  font-weight: normal;
 }
 
 h2 {
@@ -67,10 +63,16 @@ h2 {
   color: #3f1622;
 }
 
-a.value {
-  font-weight: normal;
-}
-
 aside ul {
   font-size: .8rem;
+  list-style-type: circle;
+}
+
+p > strong {
+  font-style: normal;
+}
+
+dl > dt {
+  font-weight: bold;
+  list-style-type:lower-greek;
 }
