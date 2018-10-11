@@ -74,5 +74,9 @@ p > strong {
 
 dl > dt {
   font-weight: bold;
-  list-style-type:lower-greek;
+}
+
+h2 > ol + li {
+  font-weight: bold;
+  list-style-type: lower-greek;
 }
