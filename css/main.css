@@ -76,7 +76,6 @@ dl > dt {
   font-weight: bold;
 }
 
-h2 > ol + li {
-  font-weight: bold;
+.info {
   list-style-type: lower-greek;
 }
